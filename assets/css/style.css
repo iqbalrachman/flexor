@@ -710,8 +710,13 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
+.about .video-box1 {
   background: url("../img/about-img1.png") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.about .video-box2 {
+  background: url("../img/about-img2.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
